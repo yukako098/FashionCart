@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Fashion Cart</title>
+        <!-- bootstrap -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <header class="white header d-flex justify-content-between">
+            <div class="header-gender-tags">
+                <a href="" class="font-weight-bold header-active">womens</a>
+                <a href="" class="white font-weight-bold">mens</a>
+            </div>
+
+            <ul class="d-flex justify-content-between header-ul">
+                <li class="mr-3">my bags (<span id="my_bags_num">0</span>)</li>
+                <li><a href="" class="white">sign up/in</a></li>
+            </ul>
+        </header>
+        <nav class="top-nav d-flex justify-content-between">
+            <div class="logo text-center">
+                <p class="logo-top tx-capi">fahion cart</p>
+                <p class="logo-bottom">by yuka</p>
+            </div>
+            <ul class="d-flex justify-content-between top-nav-ul">
+                <li class="tx-upper"><a href="">new</a></li>
+                <li class="tx-upper"><a href="">clothing</a></li>
+                <li class="tx-upper"><a href="">shoes</a></li>
+                <li class="tx-upper"><a href="">bags</a></li>
+                <li class="tx-upper"><a href="">accesaries</a></li>
+                <li class="tx-upper"><a href="">sales</a></li>
+            </ul>
+        </nav>
+        <section class="top-section">
+            <div class="top-section-bg">
+                <div class="d-flex">
+                    <div class="top-imgl w-50 pt-5 pb-5">
+                        <img
+                            class="top-img"
+                            src="./src/topL.jpg"
+                            alt="top-ImageL"
+                        />
+                    </div>
+                    <div class="top-imgr w-100 pt-5 pb-5">
+                        <img
+                            class="top-img pt-4 pb-4"
+                            src="./src/topR.jpg"
+                            alt="top-ImageR"
+                        />
+                    </div>
+                    <h2 class="top-section-tx tx-capi p-5 mt-5 mb-5 open-sans">
+                        free shipping<br />when you buy <br />more than $100
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="new-section mt-5">
+            <h2 class="alice tx-capi text-center">new</h2>
+            <div class="new-section-cards p-29 card-deck">
+                <a href="#" class="card">
+                    <img
+                        class="card-img-top"
+                        src="/src/sample1.png"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                        <p class="card-text">CA $100.00</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img
+                        class="card-img-top"
+                        src="/src/sample1.png"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                        <p class="card-text">CA $100.00</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img
+                        class="card-img-top"
+                        src="/src/sample1.png"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-center">Card title</h4>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                        <p class="card-text">CA $100.00</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img
+                        class="card-img-top"
+                        src="/src/sample1.png"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                        <p class="card-text">CA $100.00</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section
+            class="subscription-section p-29 d-flex justify-content-between mt-5"
+        >
+            <div class="subscriptionL w-50 white pr-5">
+                <h3 class="alice tx-capi">subscription</h3>
+                <p>
+                    Sign up and be the first to know about new products,
+                    exclusive promotions and events. Register now and enjoy our
+                    welcome 10% off promocode!
+                </p>
+            </div>
+            <div class="subscriptionR w-50 d-flex justify-content-between mt-4">
+                <input
+                    type="email"
+                    name="email"
+                    id=""
+                    placeholder="your E-mail"
+                    class="w-100"
+                />
+                <input type="button" value="Register" class="reg-btn white" />
+            </div>
+        </section>
+        <section class="about-section mt-5">
+            <h2 class="alice tx-capi text-center">about us</h2>
+            <div class="center w-50">
+                <img src="./src/about-us.jpg" alt="about picture" />
+            </div>
+            <p class="about-us-details center mt-4 w-75">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using 'Content
+                here, content here', making it look like readable English. Many
+                desktop publishing packages and web page editors now use Lorem
+                Ipsum as
+            </p>
+        </section>
+        <section class="category-section mt-5">
+            <h2 class="alice tx-capi text-center">category</h2>
+            <div class="container mb-4">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="./src/new.jpg" alt="" class="" />
+                    </div>
+                    <div class="col-6">
+                        <img src="./src/clothing.jpg" alt="" class="" />
+                    </div>
+                </div>
+            </div>
+            <div class="container mb-4">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="./src/shoes.jpg" alt="" class="" />
+                    </div>
+                    <div class="col-6">
+                        <img src="./src/bags.jpg" alt="" class="" />
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="./src/accesaries.jpg" alt="" class="" />
+                    </div>
+                    <div class="col-6">
+                        <img src="./src/sales.jpg" alt="" class="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bestSeller-section mt-5">
+            <h2 class="alice tx-capi text-center">best seller</h2>
+            <div class="bestSeller-section-cards p-29 card-deck">
+                <a href="#" class="card">
+                    <img
+                        class="card-img-top"
+                        src="/src/sample1.png"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                        <p class="card-text">CA $100.00</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img
+                        class="card-img-top"
+                        src="/src/sample1.png"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                        <p class="card-text">CA $100.00</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img
+                        class="card-img-top"
+                        src="/src/sample1.png"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-center">Card title</h4>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                        <p class="card-text">CA $100.00</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img
+                        class="card-img-top"
+                        src="/src/sample1.png"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                        <p class="card-text">CA $100.00</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <footer class="mt-5 d-flex justify-content-between">
+            <div class="alice p-29 white pt-5">
+                <p class="logo-top tx-capi">fahion cart</p>
+                <p class="logo-bottom text-center">by yuka</p>
+            </div>
+            <ul class="pt-4">
+                <li><a href="" class="tx-capi font-weight-bold">top</a></li>
+                <li><a href="" class="tx-capi">about us</a></li>
+                <li><a href="" class="tx-capi">contact</a></li>
+            </ul>
+            <ul class="pt-4">
+                <li><a href="" class="tx-capi font-weight-bold">womens</a></li>
+                <li><a href="" class="tx-capi">new</a></li>
+                <li><a href="" class="tx-capi">clothing</a></li>
+                <li><a href="" class="tx-capi">shoes</a></li>
+                <li><a href="" class="tx-capi">accesaries</a></li>
+                <li><a href="" class="tx-capi">bags</a></li>
+                <li><a href="" class="tx-capi">sales</a></li>
+            </ul>
+            <ul class="pt-4 pR9">
+                <li><a href="" class="tx-capi font-weight-bold">mens</a></li>
+                <li><a href="" class="tx-capi">new</a></li>
+                <li><a href="" class="tx-capi">clothing</a></li>
+                <li><a href="" class="tx-capi">shoes</a></li>
+                <li><a href="" class="tx-capi">accesaries</a></li>
+                <li><a href="" class="tx-capi">bags</a></li>
+                <li><a href="" class="tx-capi">sales</a></li>
+            </ul>
+        </footer>
+
+        <!-- bootstrap -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

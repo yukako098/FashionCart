@@ -1,0 +1,157 @@
+@import "variables";
+@import "mixin";
+
+// basic
+li {
+    list-style: none;
+}
+
+.tx-upper {
+    text-transform: uppercase;
+}
+
+.tx-capi {
+    text-transform: capitalize;
+}
+
+img {
+    width: 100%;
+}
+.white {
+    color: $white;
+}
+
+.alice {
+    font-family: $alice;
+}
+
+.open-sans {
+    font-family: $open-sans;
+}
+
+.p-29 {
+    padding: 2% 9%;
+}
+.pR9 {
+    padding-right: 9%;
+}
+
+.relative {
+    position: relative;
+}
+
+.centralize {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+// header
+header {
+    background-color: $oxford;
+}
+.header-gender-tags {
+    width: 30%;
+    a {
+        padding: 7%;
+    }
+    .header-active {
+        background-color: $white;
+        color: $oxford;
+        line-height: 2.5em;
+    }
+}
+
+// ================ index.html ===========================
+.header-ul {
+    margin: 0%;
+    line-height: 2.5em;
+    margin-right: 2%;
+}
+
+.logo {
+    font-family: $alice;
+    padding: 2% 2% 0 2%;
+}
+
+.top-nav-ul li {
+    font-family: $open-sans;
+}
+
+.logo-top {
+    margin: 0;
+}
+.top-nav-ul {
+    line-height: 5.5em;
+    margin-right: 2%;
+    width: 40%;
+
+    a {
+        color: $black;
+        letter-spacing: 2px;
+    }
+}
+
+// top-section
+.top-section-bg {
+    background-color: $sourdough;
+    margin-left: 15%;
+}
+.top-imgl {
+    margin-left: -5.5rem;
+}
+//subscription-section
+.subscription-section {
+    background-color: $oxford;
+}
+
+.subscriptionR {
+    height: 50px;
+}
+
+.reg-btn {
+    width: 23%;
+    background-color: $charcoal;
+    border: none;
+}
+
+// about section
+.center {
+    margin: 0 auto;
+}
+
+.about-us-details {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    line-height: 2em;
+}
+
+//footer
+footer {
+    background-color: $charcoal;
+
+    ul li a {
+        color: white;
+    }
+
+    .logo-top {
+        font-size: 2em;
+        letter-spacing: 1px;
+    }
+
+    .logo-bottom {
+        line-height: 1em;
+        letter-spacing: 1px;
+        font-size: 1em;
+    }
+}
+
+// ================ each-category.html ===========================
+.each-category-top {
+    height: 50vh;
+    background-image: url(../src/topR.jpg);
+    background-image: url(../src/topR.jpg);
+    background-size: cover;
+    background-position: center;
+}
