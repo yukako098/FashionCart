@@ -158,3 +158,20 @@ footer {
     background-size: cover;
     background-position: center;
 }
+
+// ================ product.html ===========================
+.product-name,
+.product-price,
+.product-info-description {
+    letter-spacing: 1px;
+}
+.product-qty-text {
+    font-size: 2em;
+    line-height: 4em;
+}
+.product-buy-btn {
+    background-color: $sourdough;
+}
+.product-info-description {
+    line-height: 2em;
+}

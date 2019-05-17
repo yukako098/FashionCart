@@ -157,3 +157,22 @@ footer .logo-bottom {
   background-size: cover;
   background-position: center;
 }
+
+.product-name,
+.product-price,
+.product-info-description {
+  letter-spacing: 1px;
+}
+
+.product-qty-text {
+  font-size: 2em;
+  line-height: 4em;
+}
+
+.product-buy-btn {
+  background-color: #fbd1a7;
+}
+
+.product-info-description {
+  line-height: 2em;
+}

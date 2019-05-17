@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>product details</title>
+        <!-- bootstrap -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <!-- fontawesome -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <header class="white header d-flex justify-content-between">
+            <div class="header-gender-tags">
+                <a href="" class="font-weight-bold header-active">womens</a>
+                <a href="" class="white font-weight-bold">mens</a>
+            </div>
+
+            <ul class="d-flex justify-content-between header-ul">
+                <li class="mr-3">my bags (<span id="my_bags_num">0</span>)</li>
+                <li><a href="" class="white">sign up/in</a></li>
+            </ul>
+        </header>
+        <nav class="top-nav d-flex justify-content-between">
+            <div class="logo text-center">
+                <p class="logo-top tx-capi">fahion cart</p>
+                <p class="logo-bottom">by yuka</p>
+            </div>
+            <ul class="d-flex justify-content-between top-nav-ul">
+                <li class="tx-upper"><a href="">new</a></li>
+                <li class="tx-upper"><a href="">clothing</a></li>
+                <li class="tx-upper"><a href="">shoes</a></li>
+                <li class="tx-upper"><a href="">bags</a></li>
+                <li class="tx-upper"><a href="">accesaries</a></li>
+                <li class="tx-upper"><a href="">sales</a></li>
+            </ul>
+        </nav>
+        <section class="product-details d-flex justify-content-between p-29">
+            <div class="product-imgs mr-5">
+                <div class="target-img">
+                    <img src="./src/sample1.png" alt="" />
+                </div>
+                <ul class="d-flex justify-content-between">
+                    <li id="target-img1">
+                        <img src="./src/sample1.png" alt="" />
+                    </li>
+                    <li id="target-img2">
+                        <img src="./src/sample2.png" alt="" />
+                    </li>
+                    <li id="target-img3">
+                        <img src="./src/sample3.png" alt="" />
+                    </li>
+                </ul>
+            </div>
+            <div class="product-info">
+                <div class="product-info-top">
+                    <h2 class="product-name display-3 tx-upper">
+                        products name
+                    </h2>
+                    <h3
+                        class="product-price display-3 font-weight-bold tx-upper"
+                    >
+                        ca $200.00
+                    </h3>
+                    <p class="product-qty-text tx-upper">
+                        qty:
+                        <i id="qty-less" class="fas fa-minus p-3"></i>
+                        <span class="amount-of-purchase border p-3 pr-5 pl-5"
+                            >1</span
+                        >
+                        <i id="qty-more" class="fas fa-plus p-3"></i>
+                    </p>
+                    <a
+                        href=""
+                        class="product-buy-btn btn btn-lg tx-upper font-weight-bold w-50 p-3"
+                        >buy</a
+                    >
+                </div>
+                <div class="product-info-bottom mt-5">
+                    <p class="product-info-description">
+                        Where does it come from? Contrary to popular belief,
+                        Lorem Ipsum is not simply random text. It has roots in a
+                        piece of classical Latin literature from 45 BC, making
+                        it over 2000 years old. Richard McClintock, a Latin
+                        professor at Hampden-Sydney College in Virginia, looked
+                        up one of the more obscure Latin words, consectetur,
+                        from a Lorem Ipsum passage, and going through the cites
+                        of the word in classical literature, discovered the
+                        undoubtable source. Lorem Ipsum comes from sections
+                        1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+                        (The Extremes of Good and Evil) by Cicero, written in 45
+                        BC. This book is a treatise on the theory of ethics,
+                        very popular during the Renaissance. The first line of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from
+                        a line in section 1.10.32.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
