@@ -47,6 +47,9 @@ img {
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
+.card {
+    border: none;
+}
 // header
 header {
     background-color: $oxford;

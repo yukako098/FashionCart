@@ -46,6 +46,10 @@ img {
   -webkit-transform: translate(-50%, -50%);
 }
 
+.card {
+  border: none;
+}
+
 header {
   background-color: #01273c;
 }
