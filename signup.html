@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Sign up in</title>
+        <!-- bootstrap -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <!-- fontawesome -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <section id="signup">
+            <section class="info-rectangle centralize d-flex ">
+                <div class="relative w-50">
+                    <div class="signup-texts centralize">
+                        <h2 class="signup-texts-title tx-capi white">
+                            have an account?
+                        </h2>
+                        <p class="signup-texts-p tx-capi white w-75">
+                            do you already have account? then, click the button
+                            right bellow.
+                        </p>
+                        <p class="text-right">
+                            <button
+                                href=""
+                                id="goToLogin"
+                                onclick="change_form()"
+                                class="btn btn-outline-light p-3 pl-5 pr-5 tx-upper"
+                            >
+                                login
+                            </button>
+                        </p>
+                    </div>
+                </div>
+                <div class="relative w-50">
+                    <div class="login-texts centralize">
+                        <h2 class="signup-texts-title tx-capi white">
+                            you don’t have an account yet?
+                        </h2>
+                        <p class="signup-texts-p tx-capi white w-75">
+                            click the button right below, and register your
+                            account! you can start right away!
+                        </p>
+                        <p class="text-right">
+                            <button
+                                href=""
+                                id="goToSignUp"
+                                onclick="change_form()"
+                                class="btn btn-outline-light p-3 pl-5 pr-5 tx-upper"
+                            >
+                                sign up
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="movable-rectangle" class="form-rectangle centralize">
+                <div
+                    id="signup-form-container"
+                    class="signup-form-container relative h-100"
+                >
+                    <div class="signup-form centralize w-75">
+                        <h2 class="signup-form-h2 display-4 tx-upper mb-5">
+                            sign up
+                        </h2>
+                        <form action="" method="POST">
+                            <div class="d-flex justify-content-between">
+                                <input
+                                    type="text"
+                                    id="name"
+                                    class="pb-2 mb-3 border border-top-0 border-right-0 border-left-0"
+                                    name="user_name"
+                                    placeholder="NAME"
+                                />
+                                <i class="fas fa-user pb-2 mb-3"></i>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <input
+                                    type="email"
+                                    id="signup-email"
+                                    class="pb-2 mb-3 border border-top-0 border-right-0 border-left-0"
+                                    name="user_email"
+                                    placeholder="EMAIL"
+                                />
+                                <i class="fas fa-envelope pb-2 mb-3"></i>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <input
+                                    type="password"
+                                    id="signup-password"
+                                    class="pb-2 mb-3 border border-top-0 border-right-0 border-left-0"
+                                    name="user_password"
+                                    placeholder="PASSWORD"
+                                />
+                                <i class="fas fa-unlock-alt pb-2 mb-3"></i>
+                            </div>
+                        </form>
+                        <p class="text-right mt-5">
+                            <a
+                                href=""
+                                id="signup"
+                                class="signup-btn btn white p-3 pl-5 pr-5 tx-upper"
+                                >sign up</a
+                            >
+                        </p>
+                    </div>
+                </div>
+                <div
+                    id="login-form-container"
+                    class="login-form-container relative h-100"
+                >
+                    <div class="login-form  centralize w-75">
+                        <h2 class="login-form-h2 display-4 tx-upper mb-5">
+                            login
+                        </h2>
+                        <form action="" method="POST">
+                            <div class="d-flex justify-content-between">
+                                <input
+                                    type="email"
+                                    id="login-email"
+                                    class="pb-2 mb-3 border border-top-0 border-right-0 border-left-0"
+                                    name="login_email"
+                                    placeholder="EMAIL"
+                                />
+                                <i class="fas fa-envelope pb-2 mb-3"></i>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <input
+                                    type="password"
+                                    id="login-password"
+                                    class="pb-2 mb-3 border border-top-0 border-right-0 border-left-0"
+                                    name="login_password"
+                                    placeholder="PASSWORD"
+                                />
+                                <i class="fas fa-unlock-alt pb-2 mb-3"></i>
+                            </div>
+                        </form>
+                        <p class="text-right mt-5">
+                            <a
+                                href=""
+                                id="login"
+                                class="login-btn btn white p-3 pl-5 pr-5 tx-upper"
+                                >login</a
+                            >
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- <section id="login"></section> -->
+        <script src="./js/mainStyle.js"></script>
+    </body>
+</html>

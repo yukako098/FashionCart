@@ -175,3 +175,56 @@ footer {
 .product-info-description {
     line-height: 2em;
 }
+
+// ================ signup.html ===========================
+.info-rectangle {
+    width: 90%;
+    height: 50vh;
+    background-color: $charcoal;
+}
+
+.form-rectangle {
+    left: 68%;
+    width: 45%;
+    height: 80vh;
+    background-color: white;
+    border: 1px solid $charcoal;
+    transition: left 0.5s ease-in;
+    -webkit-transition: left 0.5s ease-in;
+}
+
+.form-rectangle .login-active {
+    left: 32% !important;
+    // transition: all 0.5s ease-in;
+    // -webkit-transition: all 0.5s ease-in;
+}
+
+.signup-texts-title,
+.login-texts-title {
+    letter-spacing: 2px;
+}
+.signup-texts-p,
+.login-texts-p {
+    line-height: 2em;
+}
+
+.signup-btn,
+.login-btn {
+    background-color: $sourdough;
+}
+.signup-form-h2,
+.login-form-h2 {
+    color: $sourdough;
+}
+
+.signup-form form input,
+.login-form form input {
+    font-size: 1.2em;
+    line-height: 2em;
+    width: 80%;
+}
+.signup-form form i,
+.login-form form i {
+    font-size: 2em;
+    color: $slate;
+}
