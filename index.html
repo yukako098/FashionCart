@@ -12,6 +12,13 @@
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
             crossorigin="anonymous"
         />
+        <!-- fontawesome -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+            crossorigin="anonymous"
+        />
         <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
@@ -22,10 +29,123 @@
             </div>
 
             <ul class="d-flex justify-content-between header-ul">
-                <li class="mr-3">my bags (<span id="my_bags_num">0</span>)</li>
-                <li><a href="" class="white">sign up/in</a></li>
+                <li onclick="open_myBags_popup()" class="open_popup mr-3">
+                    my bags (<span id="my_bags_num">0</span>)
+                </li>
+                <li>
+                    <a href="signup.html" target="_blank" class="white"
+                        >sign up/in</a
+                    >
+                </li>
             </ul>
         </header>
+        <section id="my_bag_popup" class="mybag-section pr-2 pl-2">
+            <div class="mybag-container h-100">
+                <h3 class="mybag-title alice tx-capi white text-center p-3">
+                    my bag
+                </h3>
+                <div class="item-lists">
+                    <div
+                        class="each-item d-flex justify-content-between m-3 p-3 rounded"
+                    >
+                        <div class="align-self-center mr-2">
+                            <img src="./src/sample1.png" alt="" />
+                        </div>
+                        <div class="item-name-and-amount w-50 mr-2">
+                            <h4 class="item-name tx-upper">sandal</h4>
+                            <p class="item-size">item size</p>
+                            <div
+                                class="item-amount-control d-flex justify-content-between"
+                            >
+                                <i
+                                    class="fas fa-minus align-self-center mr-1"
+                                ></i>
+                                <input
+                                    type="number"
+                                    name="item-amount"
+                                    min="0"
+                                    class="w-50 mr-1"
+                                    id="item-amount"
+                                />
+                                <i class="fas fa-plus align-self-center"></i>
+                            </div>
+                        </div>
+                        <div
+                            class="item-price-container font-weight-bold align-self-center"
+                        >
+                            $200.00
+                        </div>
+                    </div>
+                    <div
+                        class="each-item d-flex rounded justify-content-between m-3 p-3"
+                    >
+                        <div class="align-self-center mr-2">
+                            <img src="./src/sample1.png" alt="" />
+                        </div>
+                        <div class="item-name-and-amount w-50 mr-2">
+                            <h4 class="item-name tx-upper">sandal</h4>
+                            <p class="item-size">item size</p>
+                            <div
+                                class="item-amount-control d-flex justify-content-between"
+                            >
+                                <i
+                                    class="fas fa-minus align-self-center mr-1"
+                                ></i>
+                                <input
+                                    type="number"
+                                    name="item-amount"
+                                    min="0"
+                                    class="w-50 mr-1"
+                                    id="item-amount"
+                                />
+                                <i class="fas fa-plus align-self-center"></i>
+                            </div>
+                        </div>
+                        <div
+                            class="item-price-container font-weight-bold align-self-center"
+                        >
+                            $200.00
+                        </div>
+                    </div>
+                    <div
+                        class="each-item d-flex rounded justify-content-between m-3 p-3"
+                    >
+                        <div class="align-self-center mr-2">
+                            <img src="./src/sample1.png" alt="" />
+                        </div>
+                        <div class="item-name-and-amount w-50 mr-2">
+                            <h4 class="item-name tx-upper">sandal</h4>
+                            <p class="item-size">item size</p>
+                            <div
+                                class="item-amount-control d-flex justify-content-between"
+                            >
+                                <i
+                                    class="fas fa-minus align-self-center mr-1"
+                                ></i>
+                                <input
+                                    type="number"
+                                    name="item-amount"
+                                    min="0"
+                                    class="w-50 mr-1"
+                                    id="item-amount"
+                                />
+                                <i class="fas fa-plus align-self-center"></i>
+                            </div>
+                        </div>
+                        <div
+                            class="item-price-container font-weight-bold align-self-center"
+                        >
+                            $200.00
+                        </div>
+                    </div>
+                </div>
+                <p class="p-3 text-center">
+                    <button type="button" class="btn go-to-checkout-btn btn-lg">
+                        Large button
+                    </button>
+                </p>
+            </div>
+        </section>
         <nav class="top-nav d-flex justify-content-between">
             <div class="logo text-center">
                 <p class="logo-top tx-capi">fahion cart</p>
@@ -310,5 +430,7 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"
         ></script>
+        <!-- style change js -->
+        <script src="./js/mainStyle.js"></script>
     </body>
 </html>

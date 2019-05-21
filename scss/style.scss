@@ -50,6 +50,9 @@ img {
 .card {
     border: none;
 }
+.align-self-center {
+    align-self: center;
+}
 // header
 header {
     background-color: $oxford;
@@ -65,13 +68,50 @@ header {
         line-height: 2.5em;
     }
 }
-
-// ================ index.html ===========================
 .header-ul {
     margin: 0%;
     line-height: 2.5em;
     margin-right: 2%;
 }
+// ================ index.html ===========================
+
+// My bag popup
+.open_popup {
+    cursor: pointer;
+}
+
+.mybag-section {
+    display: none;
+    position: absolute;
+    width: 20%;
+    right: 2%;
+    background-color: $oxford;
+}
+
+.each-item {
+    background-color: white;
+}
+
+.item-name {
+    font-size: 1em;
+}
+.item-size {
+    font-size: 0.7em;
+}
+
+.item-price-container {
+    letter-spacing: 1px;
+}
+.item-amount-control {
+    i {
+        font-size: 0.7em;
+    }
+}
+.go-to-checkout-btn {
+    background-color: $sourdough;
+}
+
+//////
 
 .logo {
     font-family: $alice;

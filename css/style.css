@@ -50,6 +50,10 @@ img {
   border: none;
 }
 
+.align-self-center {
+  align-self: center;
+}
+
 header {
   background-color: #01273c;
 }
@@ -72,6 +76,42 @@ header {
   margin: 0%;
   line-height: 2.5em;
   margin-right: 2%;
+}
+
+.open_popup {
+  cursor: pointer;
+}
+
+.mybag-section {
+  display: none;
+  position: absolute;
+  width: 20%;
+  right: 2%;
+  background-color: #01273c;
+}
+
+.each-item {
+  background-color: white;
+}
+
+.item-name {
+  font-size: 1em;
+}
+
+.item-size {
+  font-size: 0.7em;
+}
+
+.item-price-container {
+  letter-spacing: 1px;
+}
+
+.item-amount-control i {
+  font-size: 0.7em;
+}
+
+.go-to-checkout-btn {
+  background-color: #fbd1a7;
 }
 
 .logo {

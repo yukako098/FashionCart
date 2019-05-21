@@ -1,9 +1,18 @@
+//index.html
+var isClicked = false;
+function open_myBags_popup() {
+    isClicked = !isClicked;
+    if (isClicked) {
+        document.getElementById("my_bag_popup").style.display = "block";
+    } else {
+        document.getElementById("my_bag_popup").style.display = "none";
+    }
+}
+
 // signup.html
 var hasAccount = false;
 function change_form() {
-    console.log(hasAccount);
     hasAccount = !hasAccount;
-    console.log(hasAccount);
     var form = document.getElementById("movable-rectangle");
     if (hasAccount) {
         form.style.left = "32%";
